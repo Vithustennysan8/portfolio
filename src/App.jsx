@@ -223,7 +223,7 @@ function App() {
             </ul>
           </div>
         </div>
-
+{/* 
         <h2 className='text-3xl mb-4 text-center font-semibold mt-8'>Some of the basic websites</h2>
         <div className='flex md:flex-row flex-col mb-4 gap-3'>
           <div className=' bg-white bg-opacity-10 rounded-lg p-2' data-aos="fade-down-right">
@@ -247,7 +247,7 @@ function App() {
                </p>
           </div>
 
-        </div>
+        </div> */}
       </div>
 
       <div className='mb-12' id='contact'>
