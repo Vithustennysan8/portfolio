@@ -273,6 +273,15 @@ const PROJECTS = [
     status: 'Completed',
   },
   {
+    image: ids,
+    title: 'Hierarchical Hybrid Intrusion Detection System [RESEARCH]',
+    description:
+      'Ongoing research project focused on detecting zero-day and unknown cyber attacks using a hierarchical hybrid IDS architecture combining anomaly detection, supervised learning, and active learning techniques.',
+    techs: ['Python', 'TensorFlow', 'PyTorch', 'scikit-learn', 'Wireshark'],
+    link: 'https://github.com/cepdnaclk/e20-4yp-A-Hierarchical-Hybrid-Framework-for-Intrusion-Detection-in-Network-and-Application-Layers',
+    status: 'Ongoing',
+  },
+  {
     image: signLanguage,
     title: 'Sign Language Recognition Platform',
     description:
@@ -280,15 +289,6 @@ const PROJECTS = [
     techs: ['React', 'Flask', 'TensorFlow', 'OpenCV', 'LSTM'],
     link: 'https://github.com/Vithustennysan8/Sign-Language-Recognition',
     status: 'Completed',
-  },
-  {
-    image: ids,
-    title: 'Hierarchical Hybrid Intrusion Detection System',
-    description:
-      'Ongoing research project focused on detecting zero-day and unknown cyber attacks using a hierarchical hybrid IDS architecture combining anomaly detection, supervised learning, and active learning techniques.',
-    techs: ['Python', 'TensorFlow', 'PyTorch', 'scikit-learn', 'Wireshark'],
-    link: 'https://github.com/cepdnaclk/e20-4yp-A-Hierarchical-Hybrid-Framework-for-Intrusion-Detection-in-Network-and-Application-Layers',
-    status: 'Ongoing',
   },
   {
     image: Dear,
@@ -413,24 +413,25 @@ function App() {
 
                     <div className="text-zinc-400 leading-relaxed space-y-4 mt-5 max-w-prose">
                       <p>
-                        I am <span className="text-cyan-400">Vithushan E.T.L.</span>, a Computer Engineering undergraduate at{" "}
-                        <span className="text-cyan-400">the University of Peradeniya</span>. I enjoy designing and building{" "}
-                        <span className="text-cyan-400">software systems</span> that solve real-world problems, with a strong
-                        focus on clean architecture and scalability.
+                        I am <span className="text-cyan-400">Vithushan Edman Tusia Layas</span>, a Computer Engineering undergraduate at{" "}
+                        <span className="text-cyan-400">the University of Peradeniya</span>, with a strong interest in designing and building{" "}
+                        <span className="text-cyan-400">robust software systems</span> that address real-world challenges through clean,
+                        scalable architectures.
                       </p>
 
                       <p>
-                        My primary interests are <span className="text-cyan-400">full-stack and backend development</span>.
-                        I have hands-on experience building cloud-integrated applications using{" "}
-                        <span className="text-cyan-400">React, Spring Boot, REST APIs, WebSockets, and AWS</span>.
+                        My primary focus lies in <span className="text-cyan-400">full-stack and backend development</span>. I have hands-on
+                        experience developing cloud-integrated applications using{" "}
+                        <span className="text-cyan-400">
+                          React, Spring Boot, RESTful APIs, WebSockets, and AWS
+                        </span>.
                       </p>
 
                       <p>
                         I am actively seeking opportunities as a{" "}
-                        <span className="text-cyan-400">Software Engineering Intern</span> where I can contribute to real
-                        products and learn from experienced engineers.
+                        <span className="text-cyan-400">Software Engineering Intern</span> where I can contribute to production-level systems,
+                        collaborate with experienced engineers, and continue growing as a developer.
                       </p>
-
                     </div>
                   </div>
                 </div>
