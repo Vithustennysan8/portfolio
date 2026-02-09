@@ -1,5 +1,5 @@
 import './App.css';
-import CV from "../public/Vithushan_CV.pdf";
+import CV from "./assets/cv/Vithushan_CV.pdf";
 import profile from './assets/profile.png';
 import react from './assets/react.svg';
 import python from './assets/python.svg';
@@ -81,7 +81,7 @@ const FloatingNav = () => {
         <a
           key={id}
           href={`#${id}`}
-          className={`px-4 py-2 rounded-xl text-sm font-medium capitalize transition-all duration-200 ${
+          className={`px-1 md:px-4 py-2 rounded-xl md:text-sm text-xs font-medium capitalize transition-all duration-200 ${
             active === id
               ? 'bg-cyan-500/20 text-cyan-400 border border-cyan-500/30'
               : 'text-zinc-400 hover:text-white hover:bg-white/5'
